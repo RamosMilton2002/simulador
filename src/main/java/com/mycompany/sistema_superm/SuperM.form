@@ -61,7 +61,7 @@
         <Component class="javax.swing.JLabel" name="lblCli10">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\customer_person_people_woman_you_1627 (1).png"/>
+              <Image iconType="3" name="/image/Mujer.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel2"/>
           </Properties>
@@ -74,7 +74,7 @@
         <Component class="javax.swing.JLabel" name="lblCli11">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\User-80_icon-icons.com_57249 (1).png"/>
+              <Image iconType="3" name="/image/Hombre.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel3"/>
           </Properties>
@@ -87,7 +87,7 @@
         <Component class="javax.swing.JLabel" name="lblCli12">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\customer_person_people_woman_you_1627 (1).png"/>
+              <Image iconType="3" name="/image/Mujer.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel4"/>
           </Properties>
@@ -100,7 +100,7 @@
         <Component class="javax.swing.JLabel" name="lblCj1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\cashier_machine_cash_register_pos_icon_225201.png"/>
+              <Image iconType="3" name="/image/Caja.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel5"/>
           </Properties>
@@ -113,7 +113,7 @@
         <Component class="javax.swing.JLabel" name="lblCj2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\cashier_machine_cash_register_pos_icon_225201.png"/>
+              <Image iconType="3" name="/image/Caja.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel6"/>
           </Properties>
@@ -126,7 +126,7 @@
         <Component class="javax.swing.JLabel" name="lblCj3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\cashier_machine_cash_register_pos_icon_225201.png"/>
+              <Image iconType="3" name="/image/Caja.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel7"/>
           </Properties>
@@ -139,7 +139,7 @@
         <Component class="javax.swing.JLabel" name="lblCj4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\cashier_machine_cash_register_pos_icon_225201.png"/>
+              <Image iconType="3" name="/image/Caja.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel8"/>
           </Properties>
@@ -152,7 +152,7 @@
         <Component class="javax.swing.JLabel" name="lblSal">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\exit_door_cinema_icon_190851.png"/>
+              <Image iconType="3" name="/image/Caja.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel9"/>
           </Properties>
@@ -191,7 +191,7 @@
         <Component class="javax.swing.JLabel" name="lblCli1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\User-80_icon-icons.com_57249 (1).png"/>
+              <Image iconType="3" name="/image/Hombre.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel2"/>
           </Properties>
@@ -204,7 +204,7 @@
         <Component class="javax.swing.JLabel" name="lblCli6">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\User-80_icon-icons.com_57249 (1).png"/>
+              <Image iconType="3" name="/image/Hombre.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel3"/>
           </Properties>
@@ -217,7 +217,7 @@
         <Component class="javax.swing.JLabel" name="lblCli2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\customer_person_people_woman_you_1627 (1).png"/>
+              <Image iconType="3" name="/image/Mujer.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel4"/>
           </Properties>
@@ -230,7 +230,7 @@
         <Component class="javax.swing.JLabel" name="lblCli7">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\customer_person_people_woman_you_1627 (1).png"/>
+              <Image iconType="3" name="/image/Mujer.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel5"/>
           </Properties>
@@ -243,7 +243,7 @@
         <Component class="javax.swing.JLabel" name="lblCli3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\User-80_icon-icons.com_57249 (1).png"/>
+              <Image iconType="3" name="/image/Hombre.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel6"/>
           </Properties>
@@ -256,7 +256,7 @@
         <Component class="javax.swing.JLabel" name="lblCli8">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\User-80_icon-icons.com_57249 (1).png"/>
+              <Image iconType="3" name="/image/Hombre.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel7"/>
           </Properties>
@@ -269,7 +269,7 @@
         <Component class="javax.swing.JLabel" name="lblCli4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\customer_person_people_woman_you_1627 (1).png"/>
+              <Image iconType="3" name="/image/Mujer.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel8"/>
           </Properties>
@@ -282,7 +282,7 @@
         <Component class="javax.swing.JLabel" name="lblS1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\User-80_icon-icons.com_57249 (1).png"/>
+              <Image iconType="3" name="/image/Hombre.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -294,7 +294,7 @@
         <Component class="javax.swing.JLabel" name="lblS2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\customer_person_people_woman_you_1627 (1).png"/>
+              <Image iconType="3" name="/image/Mujer.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -306,7 +306,7 @@
         <Component class="javax.swing.JLabel" name="lblS3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\User-80_icon-icons.com_57249 (1).png"/>
+              <Image iconType="3" name="/image/Hombre.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -318,7 +318,7 @@
         <Component class="javax.swing.JLabel" name="lblS4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\customer_person_people_woman_you_1627 (1).png"/>
+              <Image iconType="3" name="/image/Mujer.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -330,7 +330,7 @@
         <Component class="javax.swing.JLabel" name="lblS5">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\User-80_icon-icons.com_57249 (1).png"/>
+              <Image iconType="3" name="/image/Hombre.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -342,7 +342,7 @@
         <Component class="javax.swing.JLabel" name="lblS6">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\customer_person_people_woman_you_1627 (1).png"/>
+              <Image iconType="3" name="/image/Mujer.png"/>
             </Property>
           </Properties>
           <Constraints>
