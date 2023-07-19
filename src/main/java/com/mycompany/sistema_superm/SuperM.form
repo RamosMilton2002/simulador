@@ -49,7 +49,7 @@
         <Component class="javax.swing.JLabel" name="lblCli9">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\User-80_icon-icons.com_57249 (1).png"/>
+              <Image iconType="3" name="/image/Hombre.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -178,7 +178,7 @@
         <Component class="javax.swing.JLabel" name="lblCli5">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\MSI-THIN\Downloads\customer_person_people_woman_you_1627 (1).png"/>
+              <Image iconType="3" name="/image/Mujer.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel1"/>
           </Properties>

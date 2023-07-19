@@ -5,6 +5,7 @@
 package com.mycompany.sistema_superm;
 
 import java.awt.Color;
+import static java.awt.PageAttributes.MediaType.C;
 import java.util.ArrayList;
 import java.util.Random;
 import javax.swing.JLabel;
@@ -28,7 +29,7 @@ public class SuperM extends javax.swing.JFrame {
         initComponents();
        
         cajas = new ArrayList<>();
-        cajas.add(lblCj1);
+       
         cajas.add(lblCj2);
         cajas.add(lblCj3);
 
@@ -53,7 +54,7 @@ public class SuperM extends javax.swing.JFrame {
         clientes.add(lblS6);
         
 
-        random = new Random();
+   
 
         for (JLabel cliente : clientes) {
             cliente.setVisible(false);
@@ -97,7 +98,7 @@ public class SuperM extends javax.swing.JFrame {
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        lblCli9.setIcon(new javax.swing.ImageIcon("C:\\Users\\MSI-THIN\\Downloads\\User-80_icon-icons.com_57249 (1).png")); // NOI18N
+        lblCli9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Hombre.png"))); // NOI18N
         jPanel1.add(lblCli9, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 68, -1, -1));
 
         lblCli10.setIcon(new javax.swing.ImageIcon("C:\\Users\\MSI-THIN\\Downloads\\customer_person_people_woman_you_1627 (1).png")); // NOI18N
@@ -140,7 +141,7 @@ public class SuperM extends javax.swing.JFrame {
         });
         jPanel1.add(btnIni, new org.netbeans.lib.awtextra.AbsoluteConstraints(19, 17, -1, -1));
 
-        lblCli5.setIcon(new javax.swing.ImageIcon("C:\\Users\\MSI-THIN\\Downloads\\customer_person_people_woman_you_1627 (1).png")); // NOI18N
+        lblCli5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Mujer.png"))); // NOI18N
         lblCli5.setText("jLabel1");
         jPanel1.add(lblCli5, new org.netbeans.lib.awtextra.AbsoluteConstraints(176, 72, 62, -1));
 
@@ -206,39 +207,37 @@ public class SuperM extends javax.swing.JFrame {
 
     private void btnIniActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIniActionPerformed
         // TODO add your handling code here:
-        timer = new Timer(3000, e -> {
+        
             int index = obtenerCajaConColaMenor();
             if (index != -1) {
                 JLabel cliente = obtenerClienteDisponible();
                 if (cliente != null) {
                     cliente.setVisible(true);
-                    atenderCliente(index, cliente);
+                    atenderCliente(cliente);
                 }
             }
-        });
-        timer.setInitialDelay( 0);
-        timer.setRepeats(true);
-        timer.start();
+        
+        
 
     }//GEN-LAST:event_btnIniActionPerformed
 
     private int obtenerCajaConColaMenor() {
         int colaMenor = Integer.MAX_VALUE;
-        int index = -1;
+        int index = 0;
         for (int i = 0; i < cajas.size(); i++) {
-            int cola = obtenerCola(cajas.get(i));
+            int cola = obtenerCola();
             if (cola < colaMenor) {
                 colaMenor = cola;
-                index = i;
+               
             }
         }
         return index;
     }
 
-    private int obtenerCola(JLabel caja) {
+    private int obtenerCola() {
         int contador = 0;
         for (JLabel cliente : clientes) {
-            if (cliente.isVisible()==true) {
+            if (cliente.isVisible()) {
                 contador++;
             }
         }
@@ -254,28 +253,18 @@ public class SuperM extends javax.swing.JFrame {
         return null;
     }
 
-    private void atenderCliente(int index, JLabel cliente) {
+    private void atenderCliente(JLabel cliente) {
         int tiempoAtencion = random.nextInt(7000) +1000; 
-        Timer atencionTimer = new Timer(tiempoAtencion, e -> {
             cliente.setVisible(false);
-            iniciarSalidaCliente(cliente);
-            timer.restart();
-        });
-        atencionTimer.setRepeats(false);
-        atencionTimer.start();
+            iniciarSalidaCliente(cliente);  
+        
     }
 
     /**
      * @param args the command line arguments
      */
     private void iniciarSalidaCliente(JLabel cliente) {
-        Timer salidaTimer = new Timer(2000, e -> {
             cliente.setVisible(!cliente.isVisible());
-        });
-        salidaTimer.setInitialDelay(0);
-        salidaTimer.setRepeats(true);
-        salidaTimer.setDelay(500);
-        salidaTimer.start();
     }
 
     public static void main(String args[]) {
